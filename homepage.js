@@ -52,12 +52,12 @@ class Main extends React.Component{
         }
         else{
             return(
-        React.createElement('div',{style : { backgroundColor : 'white', marginLeft : 5,marginRight : 5, padding : 0, marginTop : 0}},
+        React.createElement('div',{style : { backgroundColor : 'white', padding : 0, marginTop : 0}},
         React.createElement('h1',
         {style : {fontFamily : 'monospace', textAlign : 'left', padding : 10}},
         `Humans use only 10 percent of their brain. Is this a myth or reality?`
         ),
-        React.createElement('div',{style : {lineHeight : 1.5, color : 'black', fontFamily : 'Roboto', margin : 0, fontSize : 17}},
+        React.createElement('div',{style : {lineHeight : 1.5, color : 'black', fontFamily : 'Roboto', margin : 0, fontSize : 16}},
         React.createElement('p',{style : {padding : 20}},
         `Today we will talk about the topic about which everyone have heard at lot through their friends, teachers, 
         motivational speaker etc. You must have heard that humans only use their 10 percent of the brain and if you 
