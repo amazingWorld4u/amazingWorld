@@ -21,9 +21,9 @@ class Header extends React.Component {
     }
     else{
         return(
-            React.createElement('div',{style : {backgroundColor : 'white', paddingTop : 30,paddingRight : 30,paddingBottom : 30, marginTop : 5, marginLeft : 5, marginRight : 5}},
+            React.createElement('div',{style : {backgroundColor : 'white', paddingTop : 30,paddingRight : 30,paddingBottom : 30}},
             React.createElement('h1',{style : {padding : 0, margin : 0}},`AmazingWorld`),
-            React.createElement('div',{style : {position : 'absolute', top :0, right : 0, padding : 45, textDecoration : 'none'}},
+            React.createElement('div',{style : {position : 'absolute', top :45, right : 10, textDecoration : 'none'}},
             React.createElement('a',{href :'#',style : {padding : 10, backgroundColor : 'black', textDecoration : 'none', color: 'white', fontWeight : 'bold'}, onClick : ()=>{this.setState({menuVisible : !this.state.menuVisible})}},'Menu')),
             this.state.menuVisible ? 
             React.createElement('div',null,
